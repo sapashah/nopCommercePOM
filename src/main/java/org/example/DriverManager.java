@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.time.Duration;
 
 public class DriverManager extends Utils {
-    // Method to start browser....
+    // Method to start browser.....
     public void openBrowser(){
         WebDriverManager.chromedriver().setup();
         //open chrome driver
